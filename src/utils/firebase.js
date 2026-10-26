@@ -3,12 +3,14 @@ import { getAuth, signInWithPopup, signInWithEmailAndPassword, createUserWithEma
 import { getFirestore, doc,getDoc, setDoc,collection,writeBatch, query, getDocs } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDeGu79mlbKHuCEaf8tHXhqUu56fTQ6yqk",
-  authDomain: "deakin-web-staff-app.firebaseapp.com",
-  projectId: "deakin-web-staff-app",
-  storageBucket: "deakin-web-staff-app.firebasestorage.app",
-  messagingSenderId: "420543176845",
-  appId: "1:420543176845:web:2be7bc087cf9a6c3dd42c4"
+  apiKey: "AIzaSyCzTZfHl-vOILIqV102um3r4mfmrVqLfq8",
+  authDomain: "staff-app-987dd.firebaseapp.com",
+  databaseURL: "https://staff-app-987dd-default-rtdb.firebaseio.com",
+  projectId: "staff-app-987dd",
+  storageBucket: "staff-app-987dd.firebasestorage.app",
+  messagingSenderId: "420736462216",
+  appId: "1:420736462216:web:725a8bbc904a5d18d81e3d",
+  measurementId: "G-HS3SDML1N4"
 };
 
 const firebaseapp = initializeApp(firebaseConfig);
